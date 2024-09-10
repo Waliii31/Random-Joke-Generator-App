@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Random Joke Generator Application 🤣✨
 
-## Getting Started
+Welcome to the **Random Joke Generator Application**, the 7th project of my **30 Days 30 Projects Challenge**. This app fetches random jokes from an API and displays them to users with an option to generate new jokes at the click of a button.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Fetch Random Jokes**: The app fetches a random joke from the Joke API and displays it to the user.
+- **New Joke Button**: Users can click the button to fetch and display a new random joke.
+- **Simple and Clean UI**: A minimalistic, user-friendly design to ensure a smooth experience.
+- **Responsive Layout**: Fully responsive for both desktop and mobile users.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: Used to build the application with server-side rendering capabilities.
+- **React**: Manages the UI components and state of the application.
+- **Tailwind CSS**: For styling the app and ensuring a responsive design.
+- **shadcn/ui**: Beautifully designed Tailwind CSS components for a polished UI.
+- **Joke API**: Fetches random jokes to display in the app.
+- **Vercel**: Used for deploying the application and making it accessible online.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Demo
 
-## Learn More
+Check out the live demo of the Random Jokes Generator App on Vercel:
 
-To learn more about Next.js, take a look at the following resources:
+[Live Demo](https://random-joke-generator-app-two.vercel.app/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Screenshot
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Random-Jokes](https://github.com/user-attachments/assets/5e86f42d-1982-4854-83c0-95d39605710e)
